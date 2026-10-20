@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { font-family: 'Manrope', system-ui, sans-serif; }
+body { background: #f6f8fa; color: #14202b; font-variant-numeric: tabular-nums; }
+
+input[type='range'] { accent-color: #0e7c7b; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
