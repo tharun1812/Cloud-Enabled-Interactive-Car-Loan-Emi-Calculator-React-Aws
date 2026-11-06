@@ -54,13 +54,6 @@ deploy/aws/cloudformation.yaml   VPC, subnet, IGW, security group, IAM role, EC2
 docs/AWS_DEPLOYMENT.md           step-by-step deployment guide
 ```
 
-## Deployment
-
-See [docs/AWS_DEPLOYMENT.md](docs/AWS_DEPLOYMENT.md). Security choices: port 22 closed (SSM Session Manager instead),
-IMDSv2 required, instance role limited to read-only access on one S3 prefix.
-
-**Live demo:** _add your URL here after you deploy it_
-
 ## Limitations
 
 Estimates only. Real lenders add processing fees, insurance and may round differently. Tenure is capped at 10 years.
